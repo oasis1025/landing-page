@@ -45,9 +45,9 @@ export default function Hero() {
               data-aos="zoom-y-out"
             >
               NFT Game Changer{" "}
-              <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400">
-                Dynavo Lab
-              </span>
+              <div className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400 mt-8">
+                Dynavo
+              </div>
             </h1>
             <div className="max-w-3xl mx-auto">
               <p
@@ -84,7 +84,7 @@ export default function Hero() {
           </div>
 
           {/* Hero image */}
-          <ModalVideo
+          {/* <ModalVideo
             thumb={VideoThumb}
             thumbWidth={768}
             thumbHeight={432}
@@ -92,7 +92,7 @@ export default function Hero() {
             video="/videos/video.mp4"
             videoWidth={1920}
             videoHeight={1080}
-          />
+          /> */}
         </div>
       </div>
     </section>
